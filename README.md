@@ -1,3 +1,7 @@
+Import `db.sql` ke dalam database server yang ada (misalnya mysql)
+
+kemudian edit file backend/src/settings.php sesuai dengan konfigurasi database yang digunakan.
+
 Server / Backend
 
 Jalankan :
@@ -43,6 +47,8 @@ Update :
 		
 Delete : 
 ### `DEL` : `http://localhost:8080/goods/3?key=123456`
+
+angka `3` adalah id dari barang
 
 ----------------------------------------------------
 
